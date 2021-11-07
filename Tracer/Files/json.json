@@ -1,0 +1,35 @@
+{
+  "threads": [
+    {
+      "ThreadId": 1,
+      "ThreadTime": 209,
+      "MethodInfo": [
+        {
+          "MethodName": "MyMethod",
+          "ClassName": "Foo",
+          "Time": 105.0,
+          "ChildMethods": [
+            {
+              "MethodName": "InnerMethod",
+              "ClassName": "Bar",
+              "Time": 104.0,
+              "ChildMethods": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ThreadId": 3,
+      "ThreadTime": 105,
+      "MethodInfo": [
+        {
+          "MethodName": "Method",
+          "ClassName": "MainApp",
+          "Time": 105.0,
+          "ChildMethods": null
+        }
+      ]
+    }
+  ]
+}
